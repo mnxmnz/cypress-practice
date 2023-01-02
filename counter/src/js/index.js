@@ -1,4 +1,4 @@
-import Counter from "./modules/Counter.js";
+import Counter from './modules/Counter.js';
 
 export default function App() {
   new Counter();

@@ -1,7 +1,7 @@
 export default class Counter {
   constructor() {
     this.count = 0;
-    this.$value = document.querySelector("#value");
+    this.$value = document.querySelector('#value');
     this.initEventListeners();
   }
 
@@ -27,16 +27,10 @@ export default class Counter {
   }
 
   initEventListeners() {
-    document
-      .querySelector(".increase-btn")
-      .addEventListener("click", this.increase.bind(this));
+    document.querySelector('.increase-btn').addEventListener('click', this.increase.bind(this));
 
-    document
-      .querySelector(".decrease-btn")
-      .addEventListener("click", this.decrease.bind(this));
+    document.querySelector('.decrease-btn').addEventListener('click', this.decrease.bind(this));
 
-    document
-      .querySelector(".reset-btn")
-      .addEventListener("click", this.reset.bind(this));
+    document.querySelector('.reset-btn').addEventListener('click', this.reset.bind(this));
   }
 }
